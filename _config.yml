@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://stjhimy.github.io" # the base hostname & protocol for your site
 twitter_username: stjhimy
 github_username:  stjhimy
+permalink: /posts/:year-:month-:day-:title/
 
 # Build settings
 markdown: kramdown
