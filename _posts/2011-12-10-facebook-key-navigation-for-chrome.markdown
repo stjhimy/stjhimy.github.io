@@ -11,7 +11,7 @@ tags: Facebook++, Javascript, Chrome date: 2011-12-10 23:37:05.000000000Z
 
 A day without coding is a completely wasted day. I was free last weekend then I decided to give Chrome Web Store Api a shot. I'm a VIM user and also a Google Reader lover, so I had the idea of adding key navigation on Facebook for a quick navigation.
 
-[![](https://img.skitch.com/20111210-bnsnph9yeugksp21p1jgh5ddyd.jpg)](https://chrome.google.com/webstore/detail/paacdnaidbnbgpjnbhmdjchcjkdbgdom)
+**/lost image/**
 
 ******************************************************
 
@@ -28,11 +28,7 @@ The shortcuts are:
 * V = sends you to the original page's post.
 
 
-[![](https://img.skitch.com/20111210-eb6up4c963uqfrke9xcwjpqcud.jpg)](https://chrome.google.com/webstore/detail/paacdnaidbnbgpjnbhmdjchcjkdbgdom)
-
-[![](https://img.skitch.com/20111210-3j1y66q6u6shcxy4wydhnk3ie.jpg)](https://chrome.google.com/webstore/detail/paacdnaidbnbgpjnbhmdjchcjkdbgdom)
-
-[![](https://img.skitch.com/20111210-j5fdqr1tyk62a878bcrpcfuj4.jpg)](https://chrome.google.com/webstore/detail/paacdnaidbnbgpjnbhmdjchcjkdbgdom)
+**/lost image/**
 
 
 [Click here to see on Chrome web store.](https://chrome.google.com/webstore/detail/paacdnaidbnbgpjnbhmdjchcjkdbgdom)

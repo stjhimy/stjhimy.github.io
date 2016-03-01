@@ -17,7 +17,7 @@ in a small project you barely note that, but when things get huge it makes a big
 To make it clear, let's think you have a project with 2 scaffolds, cars and bikes.
 If you try to find the "index.html" using the Default "Go To File", you will see that:
 
-![](https://img.skitch.com/20110906-ndrb4rujd3xgieptt598j89y8s.jpg)
+**/lost image/**
 
 You just see a list of all files called "index", but what if you want to specify the cars/index?
 Sounds useless when you have 2 or 3 index...but you will love that when your project gets huge.
@@ -28,7 +28,7 @@ I just found a bundle for TextMate in github for that, to install is pretty easy
 
 Restart your TextMate, to open the new go to file press "Command + Shift + K":
 
-![](https://img.skitch.com/20110906-x1p4jft6qb7i5attp7em86n52f.jpg)
+**/lost image/**
 
 
 If you prefer take a look at [github](http://github.com/amiel/gotofile.tmbundle), and if you have a better solution, please let me know.
@@ -38,4 +38,4 @@ If you prefer take a look at [github](http://github.com/amiel/gotofile.tmbundle)
 There's also peepopen from [PeepCode](http://peepcode.com/products/peepopen).
 It's a great plugin for just $9.
 
-![](https://img.skitch.com/20110906-cf68qy1fdx12bjm5h4ufrm6x8e.jpg)
+**/lost image/**

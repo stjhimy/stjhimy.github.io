@@ -174,4 +174,4 @@ There's already a few benchmarks on the web but feels good testing yourself.
 
 *1.9.3 is way way faster.*
 
-![](https://img.skitch.com/20111031-j5w4qxm3rc8ahmwfi5k3m95hn9.jpg)
+**/lost image//**

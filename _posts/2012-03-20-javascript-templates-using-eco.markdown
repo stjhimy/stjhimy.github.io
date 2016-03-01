@@ -80,7 +80,7 @@ Now it's time to configure the asset pipeline to get the template files. If you 
 
 If you check out on your browse http://localhost:3000/post the source code should show the post’s template already compiled to js:
 
-![](https://img.skitch.com/20120314-dns46k58xsdxbp2ni6yicgb6f5.jpg)
+**/lost image/**
 
 Now we write a simple template to render our posts:
 
@@ -154,7 +154,7 @@ Let's write a simple script to get the posts and print on the console:
 Bring tears to my eyes seing how beaultiful coffee is.
 If everything goes right you should now see something like that in your console:
 
-![](https://img.skitch.com/20120315-dip5yx5f7fp1n8ahdqmgrdghje.jpg)
+**/lost image/**
 
 All you need to do now is render this generated HTML to the page. I will use the append function of JQuery:
 
@@ -165,7 +165,7 @@ All you need to do now is render this generated HTML to the page. I will use the
       success: (data) ->
         $("body").append JST["templates/posts/posts"](posts : data)
 
-![](https://img.skitch.com/20120315-tt62kenehqarurrhtcbffc6n6q.jpg)
+**/lost image/**
 
 Beautiful!
 

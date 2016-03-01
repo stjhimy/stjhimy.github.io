@@ -44,14 +44,13 @@ Next step is create a facebook application so we can use to communicate with the
 Go to <http://www.facebook.com/developers/createapp.php> and follow the steps:
 
 **Application name:**
-
-![](https://img.skitch.com/20110906-f6m9dd22jystqfkirf587ftjsc.jpg)
+**/lost image/**
 
 **Security check:**
-![](https://img.skitch.com/20110906-r15i611112g4ywr93cs32rbrti.jpg)
+**/lost image/**
 
 **Your application:**
-![](https://img.skitch.com/20110906-p219n8cjbfupypn8xgnhesic4h.jpg)
+**/lost image/**
 
 Your facebook application was created, in the next step we gonna use this Apllication ID, Secret and key to connect our rails application.
 
@@ -108,5 +107,4 @@ Almost there, we just need to create a link to the facebook authentication and d
 Devise uses the root_path and flash[:notice] to display the authentication messages, so don't forget to set the root in your routes.rb and a flash in your layout.
 Just click in the "Sign in as User with Facebook" and everything should be working by now.
 
-![](https://img.skitch.com/20110906-dr48jki3bkfd8jngu2bs5eu43y.jpg)
-![](https://img.skitch.com/20110906-ffugpgd5wd62jegtdbqkcxidq8.jpg)
+**/lost image/**

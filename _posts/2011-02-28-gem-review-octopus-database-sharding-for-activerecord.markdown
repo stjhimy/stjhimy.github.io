@@ -31,7 +31,7 @@ Basically => Multiple databases in your rails application.
 
 ##  Why/when should i care about sharding my database?
 
-![](https://img.skitch.com/20110906-t6drnbcu7jfan3h3tp8s4d21id.jpg)
+**/lost image/**
 
   * If you have tables with massive reads/writes you should shard this table to separete database, octopus can help you
   * If you need to replicate your database, octopus can help you

@@ -8,7 +8,7 @@ categories: old
 
 tags: Ruby, Rails, Web Development date: 2012-12-28 21:00:00.000000000Z
 
-[![](https://www.evernote.com/shard/s120/sh/7b30e1b6-f965-4eb6-8d75-bd7618ab232a/5e546b95d2c22c7ef972e0224c9d6917/res/f1f6ffbd-c565-4a10-9f68-5b9f55b12d0e/skitch.png)](http://broapps.co)
+**/lost image/**
 
 ##Bros
 

@@ -12,9 +12,7 @@ tags: Tips and Tricks date: 2010-09-07 19:21:11.000000000Z
 
 I was wondering if there's a way to put the Rails documentation inside the Mac Os dictionary until i find the amazing job from [Priit Haamer](http://www.priithaamer.com/) and [Mika Tuupola](http://www.appelsiini.net). They just make it flawless and very easy.
 
-![](https://img.skitch.com/20110906-ej1hhymb7hbk1cchikr64tiktg.jpg)
-![](https://img.skitch.com/20110906-jwu25x7rthtjbpmc4ijep45pam.jpg)
-![](https://img.skitch.com/20110906-pdeh2pa388dx8qh5kfmrk39m7s.jpg)
+**/lost image/**
 
 ##Files to download
 
@@ -28,6 +26,6 @@ Unzip downloaded file into ~/Library/Dictionaries folder if you want to keep thi
 To make it available for all users, drop the files into /Library/Dictionaries folder.
 
 In some cases after unzipping the files you need to open the preferences dialog and enable the dictionary.
-![](https://img.skitch.com/20110906-8etrxakjbfn2ha6cmdwmi64cb5.jpg)
+**/lost image/**
 
 Hope it can be helpful.

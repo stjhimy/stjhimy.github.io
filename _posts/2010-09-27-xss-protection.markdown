@@ -32,7 +32,7 @@ In your view you show the status like that:
 
 If Theres no XSS protection, every time you hit the page, you gonna see the alert:
 
-![](https://img.skitch.com/20110906-8bwqgst5nd7hj292wndpkwhhm3.jpg)
+**/lost image/**
 
 ##How XSS protection works in Rails 3?
 

@@ -12,7 +12,7 @@ tags: JQuery, Javascript, Ajax, Ruby on Rails date: 2011-05-26 23:37:05.00000000
 
 How twitter urls work with thoses hash-bangs (#!)?
 
-![](https://img.skitch.com/20110906-tmkkr1xx8gkcwxa6nwyfx4tgdm.jpg)
+**/lost image/**
 
 Actually it's pretty simple; you need to listen the url changes and try to
 match the route. If it matches, you just need to call an ajax function to do
@@ -171,7 +171,7 @@ application.html.erb layout:
 If you click on one of the links in the page now, you'll be able to see the
 url changing:
 
-![](https://img.skitch.com/20110906-ej9sxw4wpwj7py984tts6sxtbh.jpg)
+**/lost image/**
 
 ## The pathjs magic
 
@@ -263,7 +263,7 @@ will replace the div #ajax-content for the partial file created before:
 
 If you try to click any of the user's links, you should see this info bellow:
 
-![](https://img.skitch.com/20110906-kqyhq3yqxginhdpu5p9frmn2wk.jpg)
+**/lost image/**
 
 Ohay! Creating hash-bang urls using PathJs is pretty fun and clearly very easy.
 If you prefer there is an alternative called [sammyjs][16].

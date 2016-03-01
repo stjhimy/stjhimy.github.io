@@ -6,7 +6,6 @@ permalink: /posts/03-using-activerecord-base-methods-to-create-multiple-database
 categories: old
 ---
 
-# Using ActiveRecord::Base methods to create multiple database connections in Ruby on Rails
 tags: Databases, Ruby on Rails date: 2010-06-03 21:37:16.000000000Z
 
 ##Understanding the ActiveRecord::Base
