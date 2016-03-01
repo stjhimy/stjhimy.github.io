@@ -1,0 +1,52 @@
+---
+layout: post
+title:  Pixels alive, push pin art and ChunkyPNG
+date:   2015-12-03
+categories: old
+---
+
+Me and my girlfriend decided to create a push pin artwork during the end 2014. If you never saw a push pin art, here's an example:
+
+https://www.youtube.com/watch?v=YOh7fcrVMSE
+
+![](https://lh3.googleusercontent.com/CLd0BKn9ek-YZUU-Um4FyOhdjzWpheNvIGSiXtMjMkLBmstGX7hNzzyagMyqaFp0JwjEuU50igozwpHIHQTGOeb3CzPHYX954DXlnRodQDmMxE9NLdze4dacvGrG0xu9ac4mNEWtlDagvMFsjKUYxant-5OVCjOYwRJoYm-ehGkPjiO1QNCv0hynn4CtJ6UHvtiMDdUlCJ7TGzt-2JWOsXdBNb9Rk_6Ddy6cqTozi-uXMGG0DawilelutTi6ASEnyi45lMNgTYDMy4Gu5bUpZ6Q49WP3wf9PLWbL3qQAKvgXjd4SwveXkzegoZmu2wzOvgePCD-wakIDKHTl7hsP3SzV8bN4m7JyaYqRz47uhkDx_KhM1wCJsswRe3XCEs2ink3QKBhTAEWlce4DzCLg_r1LUHmbXlEqXSvrOHhu-JT6oDGs9KHS-NET7jkycQhe1zoeqslvGCPpJ9PrnnKzJ2sQIj0zgtdNNTbly-XRFNmIY6BFQnZ90FkIDDuR7c3PQnuQDNiDYX7bfRXKxuNHXtnlOuu-EGj37R10KZSlws2Z=w859-h663-no)
+
+Basically you replicate pixels in a board. We decided to use an image combining Freud and Nietzsche. After having the image done we needed to count the pixels of each color and mount the board with the proper matrix.
+
+## ChunkyPNG to the rescue
+
+You can easily transform the image in a matrix of pixels using ChunkyPNG:
+
+```ruby
+require "chunky_png"
+require "active_support/all"
+require "pp"
+
+img = ChunkyPNG::Image.from_file('./image.png')
+pp img.pixels
+```
+
+```
+4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295,
+4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 2627575039, 4294967295, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 255, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039, 2627575039
+```
+
+Use active_support Array method "in_groups_of" to split the lines:
+
+```ruby
+pp img.pixels.in_groups_of(65)
+```
+
+## Final result
+
+![](https://lh3.googleusercontent.com/G6WovsAqxuO3dU63wVimwA-2Hd59Sj6_hUaFzulDhMtrCIF8UurQKh-L5dajT4SvnSJWqLdLrHngBqKQ-5XEitXVcqgqzL-JIdwxX61_slDefbmH3_BBJDZmzKAN11fOqvxORUkwVdro3Thci7Bx71trgtgc7xynu7vJ0INEbrVsLKsTUnKsGzMxU0RCNzwjRTG0_lRfQzJAN3DEUnXV4TfCnJYVwSUGSiVYXbiUrao-X09Nade7fDaM32fYV0e5X6oL7stU8dTVO7gAtMiqIt8_OONXxXOOr2HXBaPUtx0uYfkIMLqs_Kb7EQN-l3EsENzVojfjM3cq3iQ2RY_srqYs4fN0xApAuvBhmkx6lChq8lH6zx_du6RGS3n1CstNRzhHuY-MkbJ_4KJMxhABSYnPwCKJSVCWdHUf6Vv39XZcbp1R2Ecn3yI7YvGkhijdVj_NcxnJO54_-sG9Q3wkONHYOLetkIvrcAidkBpHCkyjM6zBt8-XLPfSsi76NVn4FQTPYYY436DfIzgS3mR2qGShPteV7GTC0mPr8uWcFlEU=w569-h768-no)
+
+![](https://lh3.googleusercontent.com/qfvl5aPsbm9Z3q1lLGmRhkS27csYUS-2pClJHTLlY7hfdlr4LNwi2H6Z2aZGwQGiBEmevW4zPGuNpL7i5gqou-Td9q2WIoOYDd5uzU6Lk9SdEP83hHSaV5TQ1YfURvNkhznpSTaRMrTbGgYGeO1wE_AbOrGzZHVyJaxq2a9dQIQJDhdCOh_nbZ9kBDL9_Y9Oh--2QPPwMHDoHEDOAA24CvdrTGFPZlJeJuSU6pRPHUqMC8Nv7MD_s_801Pte1nhpDTt2uxMOGZ6pzMm3SZ2F4V50HEYpsMKNshp3jRPJrmraWKkm5dyCEJT1_JAs56IMB8w6wBh87cDRGxbfiZ5UDLwh4crz_Cpdp9C5jX3Bs7jmfzdtZkp4XU--0JRAjmNGHzXfWpkHelapnwMDz80rK2IElbTJjRy9EM72ETK9YoCYq6j5IYDkuIt3JXDKJXsfMfS5gwK-GNKadEQ_I4WfW7VRRZCyWm6O-oxe68Px7Ngxz0P2AyhipkMgOi0G9LSjJLHN6tc3epnRRkCE3mbEI70ybe_qJK5qQH6cs99yc_-J=s651-no)
+
+![](https://lh3.googleusercontent.com/8CS5jZotypu_Xq8pKLcxUAl8M9kqYNTqP2G-F44DQZJXMY7o0U6-pndAbRTsRTOWH0yEdYAj3Uc6OmLoIZ9CZFk0MltbXM0bOOwGyns63wwO9oTn2GJo9ohx9h9PPYgmNX5H6RpE7InQouRg-Tq7G7FEabk7T-766Vb52KjDlfZFwMYfIaxuvtjhMxjkVA6vCm0FEDyRVxBBldzHNDb3OVDctTbJAv7KkOVLvbvCSVXeZaHtJHjDGAlyysGmwy_saD3QYwf4FXbvOuQV8QdHV-r5d__O71Tzrz5xq7WFq7xP6FIm8UA1ZGt92k-3UIWAF6xVM2_Fi9bWr3u2TOjeKSJ3o6ZRdcro8YAghKxT3AFO9Sr933ZGz61YHVMunIUWSVChOT-5RdJkGbV_mge21XtnJlJEpm_o1lHzTTDOXoY0fcyI6Xf4jZ5zI0d8R2a-foaQW7b_O7tonULJ_0E9ePuluKSadmgH5VWKarVMM8oVuqID2umU-RBRi1P8CpCHWHT6ikSH2U7DRZUH0KH6DIR2gFPNqodmWkIVAIGgtduD=w604-h651-no)
+
+![](https://lh3.googleusercontent.com/dxIZno8pxqwa8ZI0lCfmOmQy4Td68vwEBeT8LA6WawBM2CLt_Yws2lG8rY4KRlTzsZlZoasGNUhC86nMmoNlnZ5blQYYz5H23KbB1rMCvxKh9XZkfd2gxEOAAei7679mVo1cyP_yE2pS_jYN6_4rqVfJ5Y5lPbVhdXOUpRSna-rsRlYrB44H0oAGvcGxMYFU5DGuW7A-E9okMliwa4cfK1sqx7XXGp-j128MlrIcv8ZLiZhdJkROEA5kIUbZ_yi5y5hotCArSfycfJQUBy7v7sROn5jfIkwY3H7scXfnZN02CFdwwKGJP7jFHNfoDtmRV_i_1H2KD6JDl3pxzI3XJJfshKTGz2XMm1VONwC7YYRDBoOeH9u9dDFDlBVrVYS2pc9A0LVbNB4f7wS0wpXyOLsslX6hB1C_USn6nEf5_5q2o0c_XHErPmtw3D5Gz5pX3-Zr5da02qHyJIrsdj5QzP5Va5Yc5cpmlQtT0ZqkpXlgDGCfqjSy10Q_fULFRHIMU2sOquoJn1Ssud6VEO-0FQXOO15Fr3Aiqh4NOrSWwp1r=w445-h651-no)
+
+![](https://lh3.googleusercontent.com/zTr2AaA_t6Vp0W_wb7ibfs3-K4ZGC2gN2hCV0SR85uV-emTY0A-S9X7fBUg8oh_K8HgNAF6iPgzHV3knlO0S94xQi_ijUKukTfHSGRvBv8mfZytyuaDmFzM-gOxM2Ju20wTGpLYizqCYVQD5kDsqI7rktNxK-vqDl8WQgT_tO3j3TACO43eJNT5rLpEMe0N-6OopdsZb36bLHhkLXYexzT3A2SHRaMZyfU0VzgY72HMRGnFJn1DwCjeG8v0wSXiw7oN5rHwylT-HcOB13jhDc8hSNk-i1HxtEX1Gb64Krfx4nbC5sg6gkiG1tdFeruR8ZQfdEe2l9ygZthSdaNYRJkPztcpNAEMscrvHXCVcRvCar1-rgWZ0A_N7JYvjaaaVY0p_vDOr8u0yEQSGqNw_3QOu9JwOHasAqM0C6M5mJisGUeUSaefR2u7Qt448JI5vF9aP-M7TnKWhVBGrNM8CTRYMZ_lLdgRoxoSkGjrY0TR5Oz-2gzgwxjjB9Dil9IgOgvFPL73apj0qVuM-jUBxqp7FgZLiocayiU_9azFaRDi-=w482-h651-no)
+
+It took us from November 2014 to March 2015 to finish.
