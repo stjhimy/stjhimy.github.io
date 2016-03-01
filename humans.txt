@@ -1,0 +1,54 @@
+/* TEAM */
+  Chef: Jhimy Fernandes Villar
+  Contact: stjhimy [at] gmail.com
+  Twitter: @stjhimy
+  From: São Paulo, São Paulo, Brazil
+
+/* OPEN SOURCE PROJECTS */
+  Name: cutcut
+  Url: https://github.com/stjhimy/cutcut
+
+  Name: exif_gps_injector
+  Url: https://github.com/stjhimy/exif_gps_injector
+
+  Name: grape
+  Url: https://github.com/ruby-grape/grape/commits/master?author=stjhimy
+
+  Name: sinatra-contrib
+  Url: https://github.com/sinatra/sinatra-contrib/pull/180
+
+  Name: database-cleaner
+  Url: https://github.com/DatabaseCleaner/database_cleaner/commits/master?author=stjhimy
+
+  Name: atreus-layoutst
+  Url: https://github.com/stjhimy/atreus-layouts
+
+  Name: atreus-firmware (fork)
+  Url: https://github.com/stjhimy/atreus-firmware
+
+  Name: mws-rb
+  Url: https://github.com/veeqo/mws-rb/commits/master?author=stjhimy
+
+  Name: rack-www
+  Url: https://github.com/stjhimy/rack-www
+
+  Name: yui_reset_rails
+  Url: https://github.com/stjhimy/yui_reset_rails
+
+  Name: exvo_globalize
+  Url: https://github.com/stjhimy/exvo_globalize/commits/master?author=stjhimy
+
+  Name: Octopus
+  Url: https://github.com/tchandy/octopus/commits/master?author=stjhimy
+
+  Name: Devise
+  Url: http://github.com/plataformatec/devise/commits/master?author=stjhimy
+
+  Name: Brazilian Rails
+  Url: https://github.com/tapajos/brazilian-rails/commits/unstable?author=stjhimy
+
+  Name: Vimfiles
+  Url: https://github.com/akitaonrails/vimfiles/commits/master?author=stjhimy
+
+  Name: Snippets
+  Url: https://github.com/akitaonrails/snipmate-snippets/commits/master?author=stjhimy
