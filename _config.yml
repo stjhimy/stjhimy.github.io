@@ -12,7 +12,7 @@ gems:
 title: Jhimy F. Villar
 email: stjhimy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My life, my code and everything between it
+  My life, my code and everything between it.
 url: "http://stjhimy.github.io" # the base hostname & protocol for your site
 twitter_username: stjhimy
 github_username:  stjhimy
@@ -21,3 +21,4 @@ permalink: /posts/:year-:month-:day-:title/
 # Build settings
 markdown: kramdown
 paginate: 5
+paginate_path: "/posts/page/:num"
