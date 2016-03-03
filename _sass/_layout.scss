@@ -133,10 +133,14 @@
 
 .footer-col-2 {
   width: 150px;
+  float: left;
+  text-alig: justify;
 }
 
 .footer-col-3 {
-  width: 300px;
+  width: 350px;
+  float: right;
+  text-align: center;
 }
 
 @include media-query($on-laptop) {
