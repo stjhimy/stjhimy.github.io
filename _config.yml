@@ -20,4 +20,4 @@ permalink: /posts/:year-:month-:day-:title/
 
 # Build settings
 markdown: kramdown
-paginate: 3
+paginate: 5
