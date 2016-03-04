@@ -2,9 +2,12 @@
   Chef: Jhimy Fernandes Villar
   Contact: stjhimy [at] gmail.com
   Twitter: @stjhimy
-  From: São Paulo, São Paulo, Brazil
+  From: Sao Paulo, Sao Paulo, Brazil
 
-/* OPEN SOURCE PROJECTS */
+/* OSS */
+  Name: stjhimy.github.io
+  Url: https://github.com/stjhimy/stjhimy.github.io
+
   Name: cutcut
   Url: https://github.com/stjhimy/cutcut
 
