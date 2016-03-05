@@ -4,6 +4,22 @@
   Twitter: @stjhimy
   From: Sao Paulo, Sao Paulo, Brazil
 
+/* SKILLS */
+  Ruby, Node.js, Elixir
+
+/* EXPERIENCE */
+  Company: Collectrium/Christie's
+  Period: Jul/2014 to Present
+  Role: Ruby developer
+
+  Company: Google Brasil
+  Period: Jun/2015 to Out/2015
+  Role: Elasticsearch consultant
+
+  Company: Veeqo
+  Period: Jul/2013 to Dec/2013
+  Role: Ruby developer/ Gem Development
+
 /* OSS */
   Name: stjhimy.github.io
   Url: https://github.com/stjhimy/stjhimy.github.io
