@@ -14,11 +14,31 @@
 
   Company: Google Brasil
   Period: Jun/2015 to Out/2015
-  Role: Elasticsearch consultant
+  Role: Full text search
+
+  Company: Amazon MWS
+  Period: Jun/2014 to Jun/2015
+  Role: Ruby developer
 
   Company: Veeqo
   Period: Jul/2013 to Dec/2013
   Role: Ruby developer/ Gem Development
+
+  Company: HiroLabs
+  Period: Jan/2012 to Dec/2012
+  Role: Full stack developer
+
+  Company: IamSponsored
+  Period: Jan/2011 to Dec/2011
+  Role: Full stack developer
+
+  Company: Tolq
+  Perod: Jan/2010 to Dec/2010
+  Role: Full stack developer
+
+  Company: Connex
+  Period: Jan/2009 to Dec/2010
+  Role: Full stack developer
 
 /* OSS */
   Name: stjhimy.github.io
