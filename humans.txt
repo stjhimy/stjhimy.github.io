@@ -41,7 +41,7 @@
   Role: Full stack developer
 
 /* OSS */
-  Name: stjhimy.github.io
+  Name: stjhimy.github.io (blog)
   Url: https://github.com/stjhimy/stjhimy.github.io
 
   Name: cutcut
