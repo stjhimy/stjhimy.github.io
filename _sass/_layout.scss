@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 20px solid $grey-color-dark;
+    border-top:  70px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -136,13 +136,19 @@
 .footer-col-2 {
   width: 150px;
   float: left;
-  text-alig: justify;
+  text-align: left;
+  color: $grey-color;
+  font-size: 12px;
+}
+
+.footer-col-2 a {
+  color: $grey-color;
 }
 
 .footer-col-3 {
   width: 300px;
   float: right;
-  text-align: center;
+  text-align: left;
 }
 
 @include media-query($on-laptop) {
