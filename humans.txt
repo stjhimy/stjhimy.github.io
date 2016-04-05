@@ -55,6 +55,7 @@
 
   Name: sinatra-contrib
   Url: https://github.com/sinatra/sinatra-contrib/pull/180
+  Url: https://github.com/sinatra/sinatra-contrib/pull/189
 
   Name: database-cleaner
   Url: https://github.com/DatabaseCleaner/database_cleaner/commits/master?author=stjhimy
