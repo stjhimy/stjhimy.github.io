@@ -54,8 +54,13 @@
   Url: https://github.com/ruby-grape/grape/commits/master?author=stjhimy
 
   Name: sinatra-contrib
+  Url: https://github/sinatra/sinatra-contrib/commits/master?author=stjhimy
   Url: https://github.com/sinatra/sinatra-contrib/pull/180
   Url: https://github.com/sinatra/sinatra-contrib/pull/189
+  Url: https://github.com/sinatra/sinatra-contrib/pull/191
+  Url: https://github.com/sinatra/sinatra-contrib/pull/196
+  Url: https://github.com/sinatra/sinatra-contrib/pull/195
+  Url: https://github.com/sinatra/sinatra-contrib/pull/194
 
   Name: database-cleaner
   Url: https://github.com/DatabaseCleaner/database_cleaner/commits/master?author=stjhimy
