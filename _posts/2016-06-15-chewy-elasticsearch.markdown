@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Chewy!
+title:  Chewy! - Elasticsearch
 date:   2016-05-15
 categories: #ruby #elasticsearch
 ---
