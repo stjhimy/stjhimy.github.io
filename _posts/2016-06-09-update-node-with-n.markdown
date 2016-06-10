@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Updating node.js using 'n'
-date:   2016-06-07
+date:   2016-06-09
 categories: #node
 ---
 
