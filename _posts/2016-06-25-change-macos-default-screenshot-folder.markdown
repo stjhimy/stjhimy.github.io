@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Change macOS default screenshot folder
-date:   2016-06-13
+date:   2016-06-25
 categories: #macos #osx
 ---
 
