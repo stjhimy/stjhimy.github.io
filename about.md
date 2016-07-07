@@ -4,3 +4,105 @@ title:  "about"
 date:   2016-07-06
 ---
 
+/* TEAM */
+  Chef: Jhimy Fernandes Villar
+  Contact: stjhimy [at] gmail.com
+  Twitter: @stjhimy
+  From: Sao Paulo, Sao Paulo, Brazil
+
+/* SKILLS */
+  Ruby, Node.js, Elixir
+
+/* EXPERIENCE */
+  Company: Collectrium/Christie's
+  Period: Jul/2014 to Present
+  Role: Ruby developer
+
+  Company: Google Brasil
+  Period: Jun/2015 to Out/2015
+  Role: Full text search
+
+  Company: MWS
+  Period: Jun/2014 to Jun/2015
+  Role: Ruby developer/ Private Gem Development
+
+  Company: Veeqo
+  Period: Jul/2013 to Dec/2013
+  Role: Ruby developer/ Gem Development
+
+  Company: HiroLabs
+  Period: Jan/2012 to Dec/2012
+  Role: Full stack developer
+
+  Company: IamSponsored
+  Period: Jan/2011 to Dec/2011
+  Role: Full stack developer
+
+  Company: Tolq
+  Perod: Jan/2010 to Dec/2010
+  Role: Full stack developer
+
+  Company: Connex
+  Period: Jan/2009 to Dec/2010
+  Role: Full stack developer
+
+/* OSS */
+  Name: stjhimy.github.io (blog)
+  Url: https://github.com/stjhimy/stjhimy.github.io
+
+  Name: mini_exiftool
+  Url: https://github.com/janfri/mini_exiftool/commits/master?author=stjhimy
+
+  Name: boomy
+  Url: https://github.com/stjhimy/boomy
+
+  Name: brbr
+  Url: https://github.com/stjhimy/brbr
+
+  Name: cutcut
+  Url: https://github.com/stjhimy/cutcut
+
+  Name: exif_gps_injector
+  Url: https://github.com/stjhimy/exif_gps_injector
+
+  Name: grape
+  Url: https://github.com/ruby-grape/grape/commits/master?author=stjhimy
+
+  Name: sinatra-contrib
+  Url: https://github/sinatra/sinatra-contrib/commits/master?author=stjhimy
+
+  Name: database-cleaner
+  Url: https://github.com/DatabaseCleaner/database_cleaner/commits/master?author=stjhimy
+
+  Name: atreus-layoutst
+  Url: https://github.com/stjhimy/atreus-layouts
+
+  Name: atreus-firmware (fork)
+  Url: https://github.com/stjhimy/atreus-firmware
+
+  Name: mws-rb
+  Url: https://github.com/veeqo/mws-rb/commits/master?author=stjhimy
+
+  Name: rack-www
+  Url: https://github.com/stjhimy/rack-www
+
+  Name: yui_reset_rails
+  Url: https://github.com/stjhimy/yui_reset_rails
+
+  Name: exvo_globalize
+  Url: https://github.com/stjhimy/exvo_globalize/commits/master?author=stjhimy
+
+  Name: Octopus
+  Url: https://github.com/tchandy/octopus/commits/master?author=stjhimy
+
+  Name: Devise
+  Url: http://github.com/plataformatec/devise/commits/master?author=stjhimy
+
+  Name: Brazilian Rails
+  Url: https://github.com/tapajos/brazilian-rails/commits/unstable?author=stjhimy
+
+  Name: Vimfiles
+  Url: https://github.com/akitaonrails/vimfiles/commits/master?author=stjhimy
+
+  Name: Snippets
+  Url: https://github.com/akitaonrails/snipmate-snippets/commits/master?author=stjhimy
