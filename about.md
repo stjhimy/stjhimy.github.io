@@ -4,105 +4,77 @@ title:  "about"
 date:   2016-07-06
 ---
 
-/* TEAM */
-  Chef: Jhimy Fernandes Villar
-  Contact: stjhimy [at] gmail.com
-  Twitter: @stjhimy
-  From: Sao Paulo, Sao Paulo, Brazil
+## Hi, I'm Jhimy
+I'm a top rated developer at [upwork.com](http://upwork.com). I work with Ruby and Elasticsearch at [collectrium.com](http://collectrium.com)
 
-/* SKILLS */
-  Ruby, Node.js, Elixir
+## Skills
+Ruby, Node.js, Elixir
 
-/* EXPERIENCE */
-  Company: Collectrium/Christie's
-  Period: Jul/2014 to Present
-  Role: Ruby developer
+## Experience
+    Company: Collectrium/Christie's
+    Period: Jul/2014 to Present
+    Role: Ruby developer
 
-  Company: Google Brasil
-  Period: Jun/2015 to Out/2015
-  Role: Full text search
+-
 
-  Company: MWS
-  Period: Jun/2014 to Jun/2015
-  Role: Ruby developer/ Private Gem Development
+    Company: Google Brasil
+    Period: Jun/2015 to Out/2015
+    Role: Full text search
 
-  Company: Veeqo
-  Period: Jul/2013 to Dec/2013
-  Role: Ruby developer/ Gem Development
+-
 
-  Company: HiroLabs
-  Period: Jan/2012 to Dec/2012
-  Role: Full stack developer
+    Company: MWS
+    Period: Jun/2014 to Jun/2015
+    Role: Ruby developer/ Private Gem Development
 
-  Company: IamSponsored
-  Period: Jan/2011 to Dec/2011
-  Role: Full stack developer
+-
 
-  Company: Tolq
-  Perod: Jan/2010 to Dec/2010
-  Role: Full stack developer
+    Company: Veeqo
+    Period: Jul/2013 to Dec/2013
+    Role: Ruby developer/ Gem Development
 
-  Company: Connex
-  Period: Jan/2009 to Dec/2010
-  Role: Full stack developer
+-
 
-/* OSS */
-  Name: stjhimy.github.io (blog)
-  Url: https://github.com/stjhimy/stjhimy.github.io
+    Company: HiroLabs
+    Period: Jan/2012 to Dec/2012
+    Role: Full stack developer
 
-  Name: mini_exiftool
-  Url: https://github.com/janfri/mini_exiftool/commits/master?author=stjhimy
+-
 
-  Name: boomy
-  Url: https://github.com/stjhimy/boomy
+    Company: IamSponsored
+    Period: Jan/2011 to Dec/2011
+    Role: Full stack developer
 
-  Name: brbr
-  Url: https://github.com/stjhimy/brbr
+-
 
-  Name: cutcut
-  Url: https://github.com/stjhimy/cutcut
+    Company: Tolq
+    Perod: Jan/2010 to Dec/2010
+    Role: Full stack developer
 
-  Name: exif_gps_injector
-  Url: https://github.com/stjhimy/exif_gps_injector
+-
 
-  Name: grape
-  Url: https://github.com/ruby-grape/grape/commits/master?author=stjhimy
+    Company: Connex
+    Period: Jan/2009 to Dec/2010
+    Role: Full stack developer
 
-  Name: sinatra-contrib
-  Url: https://github/sinatra/sinatra-contrib/commits/master?author=stjhimy
-
-  Name: database-cleaner
-  Url: https://github.com/DatabaseCleaner/database_cleaner/commits/master?author=stjhimy
-
-  Name: atreus-layoutst
-  Url: https://github.com/stjhimy/atreus-layouts
-
-  Name: atreus-firmware (fork)
-  Url: https://github.com/stjhimy/atreus-firmware
-
-  Name: mws-rb
-  Url: https://github.com/veeqo/mws-rb/commits/master?author=stjhimy
-
-  Name: rack-www
-  Url: https://github.com/stjhimy/rack-www
-
-  Name: yui_reset_rails
-  Url: https://github.com/stjhimy/yui_reset_rails
-
-  Name: exvo_globalize
-  Url: https://github.com/stjhimy/exvo_globalize/commits/master?author=stjhimy
-
-  Name: Octopus
-  Url: https://github.com/tchandy/octopus/commits/master?author=stjhimy
-
-  Name: Devise
-  Url: http://github.com/plataformatec/devise/commits/master?author=stjhimy
-
-  Name: Brazilian Rails
-  Url: https://github.com/tapajos/brazilian-rails/commits/unstable?author=stjhimy
-
-  Name: Vimfiles
-  Url: https://github.com/akitaonrails/vimfiles/commits/master?author=stjhimy
-
-  Name: Snippets
-  Url: https://github.com/akitaonrails/snipmate-snippets/commits/master?author=stjhimy
+## OSS
+  - **stjhimy.github.io (blog)** [https://github.com/stjhimy/stjhimy.github.io](https://github.com/stjhimy/stjhimy.github.io)
+  - **mini_exiftool** [https://github.com/janfri/mini_exiftool](https://github.com/janfri/mini_exiftool/commits/master?author=stjhimy)
+  - **boomy** [https://github.com/stjhimy/boomy](https://github.com/stjhimy/boomy)
+  - **brbr** [https://github.com/stjhimy/brbr](https://github.com/stjhimy/brbr)
+  - **cutcut** [https://github.com/stjhimy/cutcut](https://github.com/stjhimy/cutcut)
+  - **exif_gps_injector** [https://github.com/stjhimy/exif_gps_injector](https://github.com/stjhimy/exif_gps_injector)
+  - **grape** [https://github.com/ruby-grape/grape](https://github.com/ruby-grape/grape/commits/master?author=stjhimy)
+  - **sinatra-contrib** [https://github/sinatra/sinatra-contrib](https://github/sinatra/sinatra-contrib/commits/master?author=stjhimy)
+  - **database-cleaner** [https://github.com/DatabaseCleaner/...](https://github.com/DatabaseCleaner/database_cleaner/commits/master?author=stjhimy)
+  - **atreus-layoutst** [https://github.com/stjhimy/atreus-layouts](https://github.com/stjhimy/atreus-layouts)
+  - **atreus-firmware (fork)** [https://github.com/stjhimy/atreus-firmware](https://github.com/stjhimy/atreus-firmware)
+  - **mws-rb** [https://github.com/veeqo/mws-rb](https://github.com/veeqo/mws-rb/commits/master?author=stjhimy)
+  - **rack-www** [https://github.com/stjhimy/rack-www](https://github.com/stjhimy/rack-www)
+  - **yui_reset_rails** [https://github.com/stjhimy/yui_reset_rails](https://github.com/stjhimy/yui_reset_rails)
+  - **exvo_globalize** [https://github.com/stjhimy/exvo_globalize](https://github.com/stjhimy/exvo_globalize/commits/master?author=stjhimy)
+  - **octopus** [https://github.com/tchandy/octopus](https://github.com/tchandy/octopus/commits/master?author=stjhimy)
+  - **devise** [http://github.com/plataformatec/devise](http://github.com/plataformatec/devise/commits/master?author=stjhimy)
+  - **brazilian-rails** [https://github.com/tapajos/brazilian-rails](https://github.com/tapajos/brazilian-rails/commits/unstable?author=stjhimy)
+  - **vimfiles** [https://github.com/akitaonrails/vimfiles](https://github.com/akitaonrails/vimfiles/commits/master?author=stjhimy)
+  - **snippets** [https://github.com/akitaonrails/snipmate-snippets](https://github.com/akitaonrails/snipmate-snippets/commits/master?author=stjhimy)
