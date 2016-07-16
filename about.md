@@ -59,6 +59,7 @@ Ruby, Node.js, Elixir
 
 ## OSS
   - **stjhimy.github.io (blog)** [https://github.com/stjhimy/stjhimy.github.io](https://github.com/stjhimy/stjhimy.github.io)
+  - **mustermann** [https://github.com/sinatra/mustermann](https://github.com/sinatra/mustermann?author=stjhimy)
   - **mini_exiftool** [https://github.com/janfri/mini_exiftool](https://github.com/janfri/mini_exiftool/commits/master?author=stjhimy)
   - **boomy** [https://github.com/stjhimy/boomy](https://github.com/stjhimy/boomy)
   - **brbr** [https://github.com/stjhimy/brbr](https://github.com/stjhimy/brbr)

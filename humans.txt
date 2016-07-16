@@ -44,6 +44,9 @@
   Name: stjhimy.github.io (blog)
   Url: https://github.com/stjhimy/stjhimy.github.io
 
+  Name: mustermann
+  Url: https://github.com/sinatra/mustermann?author=stjhimy
+
   Name: mini_exiftool
   Url: https://github.com/janfri/mini_exiftool/commits/master?author=stjhimy
 
