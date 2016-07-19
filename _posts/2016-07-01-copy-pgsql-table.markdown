@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Copy pgsql table (schema and data)
+title:  Copy table (schema and data) using psql
 date:   2016-07-01
 categories: #sql
 ---
