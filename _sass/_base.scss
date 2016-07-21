@@ -162,6 +162,8 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
     @extend %clearfix;
     background-color: #fbfbfb;
 
