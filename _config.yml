@@ -20,5 +20,5 @@ permalink: /posts/:year-:month-:day-:title/
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 3
 paginate_path: "/posts/page/:num"
