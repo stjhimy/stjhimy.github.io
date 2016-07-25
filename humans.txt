@@ -44,6 +44,9 @@
   Name: stjhimy.github.io (blog)
   Url: https://github.com/stjhimy/stjhimy.github.io
 
+  Name: sinatra
+  Url: https://github.com/sinatra/sinatra
+
   Name: mustermann
   Url: https://github.com/sinatra/mustermann?author=stjhimy
 
