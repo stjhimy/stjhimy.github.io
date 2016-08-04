@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2016-07-21
+date:   2016-08-04
 ---
 
 I'm a top rated developer at [upwork.com](http://upwork.com) currently working with Ruby and Elasticsearch at [collectrium.com](http://collectrium.com).
