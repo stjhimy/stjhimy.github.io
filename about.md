@@ -1,10 +1,7 @@
 ---
 layout: post
-title:  "Hi, I'm Jhimy"
 date:   2016-07-21
 ---
-
-My name is Jhimy Fernandes Villar and I live in São Paulo - Brazil.
 
 I'm a top rated developer at [upwork.com](http://upwork.com) currently working with Ruby and Elasticsearch at [collectrium.com](http://collectrium.com).
 
