@@ -14,8 +14,6 @@ email: stjhimy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My life, my code and everything between it.
 url: "http://stjhimy.com" # the base hostname & protocol for your site
-twitter_username: stjhimy
-github_username:  stjhimy
 permalink: /posts/:year-:month-:day-:title/
 
 # Build settings
