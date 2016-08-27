@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Glad we stop it
-date:   2016-08-25
+date:   2016-08-27
 categories: #off-topic
 ---
 
