@@ -12,3 +12,7 @@ permalink: /posts/:year-:month-:day-:title/
 markdown: kramdown
 paginate: 3
 paginate_path: "/posts/page/:num"
+
+twitter: stjhimy
+github: stjhimy
+instagram: stjhimy
