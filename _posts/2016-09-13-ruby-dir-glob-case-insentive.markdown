@@ -13,14 +13,14 @@ Let's say you have two files: `1.jpg` and `2.JPG`
 -rw-r--r--  1 stjhimy  staff     0B Sep 13 10:00 2.JPG
 ```
 
-```
+```ruby
 Dir.glob('./*.jpg')
  => ["./1.jpg"]
 ```
 
 `File::FNM_CASEFOLD` makes it case insensitive:
 
-```
+```ruby
 Dir.glob('./*.jpg', File::FNM_CASEFOLD)
  => ["./1.jpg", "./2.JPG"]
 ```
