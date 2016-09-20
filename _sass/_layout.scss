@@ -173,8 +173,6 @@
     }
 }
 
-
-
 /**
  * Page content
  */
@@ -182,38 +180,30 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  list-style: none;
 }
 
-.post-list h2 {
+.post-list li {
+  margin-bottom: $spacing-unit;
+}
+
+.post-list h1 {
   margin-bottom: 0px;
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+  font-size: $small-font-size;
+  color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 19px;
+  color: #555;
 }
 
 .post-link:visited {
-    color: #555;
+  color: #888;
 }
-
-
 
 /**
  * Posts
@@ -261,6 +251,6 @@
 }
 
 .pagination {
-  font-size: 12px;
+  //font-size: 12px;
 }
 
