@@ -44,7 +44,7 @@
   Name: stjhimy.github.io (blog)
   Url: https://github.com/stjhimy/stjhimy.github.io
 
-  Name: jekyll-flat
+  Name: jekyll-flat(jekyll theme)
   Url: https://github.com/stjhimy/jekyll-flat
 
   Name: sinatra
