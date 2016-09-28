@@ -1,0 +1,54 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username}}" class='icon'>
+              <i class="fa fa-github"></i> Github
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username%}
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}" class='icon'>
+              <i class="fa fa-twitter"></i> Twitter
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.instagram_username%}
+          <li>
+            <a href="https://instagram.com/{{ site.instagram_username}}" class='icon'>
+              <i class="fa fa-instagram"></i> Instagram
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

@@ -1,9 +1,3 @@
-GIT
-  remote: git@github.com:stjhimy/jekyll-flat.git
-  revision: 67045420e60048740513050f6fcc08d1d49a6968
-  specs:
-    jekyll-flat (1.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -141,7 +135,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (= 3.2.1)
-  jekyll-flat!
   jekyll-sitemap
 
 BUNDLED WITH
