@@ -1,6 +1,7 @@
 ---
-layout: post
-date:   2016-08-04
+layout: page
+title: About
+permalink: /about/
 ---
 
 I'm a top rated developer at [upwork.com](http://upwork.com) currently working with Ruby and Elasticsearch at [collectrium.com](http://collectrium.com).

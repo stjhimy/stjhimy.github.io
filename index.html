@@ -4,21 +4,31 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
+  {% assign custom_url = site.url | append: site.baseurl %}
+  {% assign full_base_url = site.github.url | default: custom_url %}
 
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
+  {% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
-    {% endfor %}
-    <li>
-      <h1>
-        <a href="/archives" class="post-link">See all</a>
-      </h1>
-    </li>
-  </ul>
+    {% if forloop.first %}
+      <h2 id="{{ this_year }}-ref"  class="post-year">{{this_year}}</h2>
+      <ul class="post-list">
+      {% endif %}
+
+      <li><a class="post-link" href="{{ post.url | prepend: full_base_url }}">{{ post.url | slice: 0, 55}}</a></li>
+
+      {% if forloop.last %}
+      </ul>
+    {% else %}
+      {% if this_year != next_year %}
+      </ul>
+      <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+      <ul class="post-list">
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: full_base_url }}">via RSS</a></p>
+
 </div>
