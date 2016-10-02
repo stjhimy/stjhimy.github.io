@@ -44,11 +44,14 @@
   Name: stjhimy.github.io (blog)
   Url: https://github.com/stjhimy/stjhimy.github.io
 
-  Name: jekyll-flat(jekyll theme)
+  name: minima(jekyll theme)
+  Url: https://github.com/jekyll/minima/commits/master?author=stjhimy
+
+  name: jekyll-flat(jekyll theme)
   Url: https://github.com/stjhimy/jekyll-flat
 
   Name: sinatra
-  Url: https://github.com/sinatra/sinatra
+  Url: https://github.com/sinatra/sinatra?author=stjhimy
 
   Name: mustermann
   Url: https://github.com/sinatra/mustermann?author=stjhimy
