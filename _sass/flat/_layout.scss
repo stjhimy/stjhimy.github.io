@@ -172,7 +172,9 @@
 
 .post-list {
     margin-left: 0;
+    padding-left: 15px;
     list-style: none;
+    border-left: 10px solid #424242;
 
     > li {
       margin-bottom: 5px;
