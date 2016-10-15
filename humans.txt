@@ -2,7 +2,7 @@
   Chef: Jhimy Fernandes Villar
   Contact: stjhimy [at] gmail.com
   Twitter: @stjhimy
-  From: Sao Paulo, Sao Paulo, Brazil
+  From: Sao Paulo, Brazil
 
 /* SKILLS */
   Ruby, Node.js, Elixir, Go
