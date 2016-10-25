@@ -10,7 +10,7 @@ You can follow my OSS journey at [github.com/stjhimy](https://github.com/stjhimy
 
 ## Experience
 The last 3 years I worked as a freelancer for a number of companies including Veeqo, Amazon Marketplace, Google Brasil and finally Collectrium.
-[Here](/humans.txt) you can find a complete list.
+[Here](/humans.txt) you can find a complete list of jobs I have taken before.
 
 ## Open Source
 I keep a list of every single contribution I did [here](/humans.txt).
