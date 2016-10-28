@@ -13,11 +13,11 @@ Example image:
  and thereby re-rectify the image. To find the right parameters one can use tools available for example as part
  of opencv or simply trial-and-error. To use opencv use the calibration sample (under samples/cpp) from the opencv sources and extract the k1 and k2 coefficients from the resulting matrix.
 
-```
-k1 - Coefficient of the quadratic correction term. 0.5 means no correction.
+ [http://www.ffmpeg.org/ffmpeg-all.html#lenscorrection](http://www.ffmpeg.org/ffmpeg-all.html#lenscorrection)
 
-k2 - Coefficient of the double quadratic correction term. 0.5 means no correction.
-```
+> k1 - Coefficient of the quadratic correction term. 0.5 means no correction.
+
+> k2 - Coefficient of the double quadratic correction term. 0.5 means no correction.
 
 ```bash
 ffmpeg -i in.jpg\
@@ -28,3 +28,8 @@ ffmpeg -i in.jpg\
 Output image:
 
 <a href="http://imgur.com/WZ9awlF"><img src="http://i.imgur.com/WZ9awlF.jpg" title="source: imgur.com" /></a>
+
+## Updated - 2016-10-28
+
+This guy used a dynamic script to find the most suitable values for k1 and k2, might be helpful:
+[https://www.youtube.com/watch?v=hieagk2l4lI](https://www.youtube.com/watch?v=hieagk2l4lI)
