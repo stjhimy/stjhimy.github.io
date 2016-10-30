@@ -33,3 +33,24 @@ Output image:
 
 This guy used a dynamic script to find the most suitable values for k1 and k2, might be helpful:
 [https://www.youtube.com/watch?v=hieagk2l4lI](https://www.youtube.com/watch?v=hieagk2l4lI)
+
+## Updated - 2016-10-29
+
+Here's a small script to generate sequential corrected images using k1/k2 incremented by 0.1:
+
+```ruby
+(-1.0..1.0).step(0.1).map{|e| e.round(2)}.map do |k|
+  range.map{|v| [k,v]}
+end.reduce(:+).each_with_index do |value, index|
+  k1, k2 = value
+  system("ffmpeg -i in.jpg -vf \
+         lenscorrection=k1=#{k1}:k2=#{k2} \
+         IMG_#{index}.JPG &> /dev/null")
+end
+```
+
+input -> in.jpg
+
+output -> IMG_1.JPG, IMG_2.JPG, IMG_3.JPG
+
+Now you have a list of  corrected images that can be used to determine the best values for k1 and k2.
