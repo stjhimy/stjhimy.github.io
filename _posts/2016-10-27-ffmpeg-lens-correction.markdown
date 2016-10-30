@@ -54,3 +54,14 @@ input -> in.jpg
 output -> IMG_1.JPG, IMG_2.JPG, IMG_3.JPG
 
 Now you have a list of  corrected images that can be used to determine the best values for k1 and k2.
+
+## Updated - 2016-10-29 - ffmpeg vs photoshop
+
+
+ffmpeg:
+<a href="http://imgur.com/WZ9awlF"><img src="http://i.imgur.com/WZ9awlF.jpg" title="source: imgur.com" /></a>
+
+Photoshop:
+<a href="http://imgur.com/PQkRm5d"><img src="http://i.imgur.com/PQkRm5d.jpg" title="source: imgur.com" /></a>
+
+As you see the values for k1 and k2 are not perfect, the corners still rounded.
