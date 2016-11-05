@@ -15,3 +15,6 @@ Jason Fried makes it clear, the culture of interruption:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Only ~30 hands up when I asked 500 ppl at Lean Startup Conf if they remembered the last time they had 4hrs of uninterrupted time at work.</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/794214482230722560">November 3, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/stjhimy">@stjhimy</a> isn’t that ridiculous? This is progress? This is the state of the art? The art of interruption, perhaps.</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/794215865977749505">November 3, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
