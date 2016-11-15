@@ -16,4 +16,4 @@ The last 3 years I worked as a freelancer for a number of companies including Ve
 I keep a list of every single contribution I did [here](/humans.txt).
 
 ## Contact
-Drop me a line at [stjhimy@gmail.com](mailto:stjhimy@gmail.com).
+Drop me a line at [stjhimy@gmail.com](mailto:stjhimy@gmail.com) or ping me on [@stjhimy](http://twitter.com/stjhimy).
