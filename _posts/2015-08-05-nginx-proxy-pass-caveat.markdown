@@ -9,7 +9,7 @@ categories: old
 
 Explaining this tweet:
 
-Let's say you have /foo proxying to 127.0.0.1:300
+Let's say you have /foo proxying to 127.0.0.1:3000
 
     location /foo/ {
         proxy_pass http://127.0.0.1:3000/;
