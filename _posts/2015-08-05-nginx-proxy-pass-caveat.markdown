@@ -21,6 +21,6 @@ when you hit /foo it proxy to 127.0.0.1:3000/
         proxy_pass http://127.0.0.1:3000;
     }
 
-when you hit /foo it proxy to 127.0.0.1:300/foo
+when you hit /foo it proxy to 127.0.0.1:3000/foo
 
-The only difference is the "/" at the end of "127.0.1:300**/**"
+The only difference is the "/" at the end of "127.0.1:3000**/**"
