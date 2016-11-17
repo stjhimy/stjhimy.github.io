@@ -9,7 +9,7 @@ I'm a top rated developer at [upwork.com](http://upwork.com) currently working w
 You can follow my OSS journey at [github.com/stjhimy](https://github.com/stjhimy) and my thoughts at [twitter.com/stjhimy](https://twitter.com/stjhimy).
 
 ## Experience
-The last 3 years I worked as a freelancer for a number of companies including Veeqo, Amazon Marketplace, Google Brasil and finally Collectrium.
+The last years I worked as a freelancer for a number of companies including Veeqo, Amazon Marketplace, Google Brasil and finally Collectrium.
 [Here](/humans.txt) you can find a complete list of jobs I have taken before.
 
 ## Open Source
