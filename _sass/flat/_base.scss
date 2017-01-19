@@ -129,17 +129,14 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
+    font-size: 13px;
     background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
+    border: 0px;
+    padding: 3px;
 }
 
 pre {
+    border-top: 10px solid $grey-color-light;
     padding: 8px 12px;
     overflow-x: auto;
 
