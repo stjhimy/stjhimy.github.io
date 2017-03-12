@@ -5,7 +5,7 @@
   From: Sao Paulo, Brazil
 
 /* SKILLS */
-  Ruby, Node.js, Elixir, Go
+  Ruby, Elixir, Node.js
 
 /* EXPERIENCE */
   Company: Collectrium/Christie's
