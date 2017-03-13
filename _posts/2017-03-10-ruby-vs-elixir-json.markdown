@@ -76,7 +76,3 @@ iex(5)> :timer.tc(fn ->  Poison.decode(file) |> Poison.encode; nil end)
 {35776466, nil}
 iex(6)>
 ```
-
-## Conclusion
-
-For small files (up to 50 MB) ruby seems to be slightly faster but elixir handles bigger files (and memory) better.
