@@ -2,7 +2,7 @@
 layout: post
 title:  Restore mongodb from compressed gz file
 date:   2017-09-04
-categories: #elixir
+categories: #mongodb
 ---
 
 ```

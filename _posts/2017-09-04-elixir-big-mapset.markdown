@@ -18,7 +18,7 @@ iex(3)> map1 -- map2
 [4, 5]
 ```
 
-For bigger lists/sets (millions of items) use `Mapset` to make it faster:
+For bigger lists/sets (millions of items) use Mapset to make it faster:
 
 ```elixir
   Mapset.difference(Mapset.new(map1), Mapset.new(map2))
